@@ -16,3 +16,16 @@
 2022-05-20 14:32:30,353 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_2\src\main\resources
 2022-05-20 14:32:30,354 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-05-20 14:32:30,355 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_2\src\test\resources
+2022-05-20 14:51:31,262 [Worker-24: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\pom.xml
+2022-05-20 14:51:49,156 [Worker-24: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.protalento:Practica_semanal_semana_3:0.0.1-SNAPSHOT @ C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\pom.xml.
+2022-05-20 14:51:53,982 [Worker-24: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Practica_semanal_semana_3/src/main/java
+2022-05-20 14:51:54,221 [Worker-24: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /Practica_semanal_semana_3/src/test/java
+2022-05-20 14:51:57,558 [Worker-24: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 25 sec
+2022-05-20 14:52:39,276 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 14:52:39,277 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\src\main\resources
+2022-05-20 14:52:39,278 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 14:52:39,279 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\src\test\resources
+2022-05-20 14:59:18,953 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 14:59:19,020 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\src\main\resources
+2022-05-20 14:59:19,023 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-05-20 14:59:19,023 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\santi\WorkPlace_01\Practica_semanal_semana_3\src\test\resources
