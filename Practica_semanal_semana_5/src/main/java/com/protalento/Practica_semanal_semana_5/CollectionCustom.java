@@ -91,34 +91,29 @@ public class CollectionCustom<T> {
 			System.out.println("no se puede agregar \""+elemento+"\" porque ya no hay más espacio en la colección");
 		}
 	}
+
 	public T remove(T elemento) {
-		int cont2 = 0;
+		
 		for (int var = 0; var < coleccion.length; var++) {
 			if(coleccion[var]==elemento) {
-				cont2=1;
+				coleccion[var]=(T)" ";
+				break;
 			}
-			if(cont2==1) {
-				if(coleccion[var+1]!= null) {
-					coleccion[var]= (T) "";
-					System.out.println("ya se eliminó el elemento: "+elemento);
-					break;
-				}else {
-					
-				}
-			}
+				
 		}
+		
 	return elemento;
 	}
 	public void removeAll() {
 		for (int var = 0; var < coleccion.length; var ++) {
 			coleccion[var]=null;
 		}
-	}
+	} 
 
 	public boolean empty() {
 		int cont = 0;
 		for(int var = 0; var < coleccion.length; var ++) {
-			if (coleccion[var]==null) {
+			if (coleccion[var]==null || coleccion[var]=="") {
 				cont++;
 			}
 		}
