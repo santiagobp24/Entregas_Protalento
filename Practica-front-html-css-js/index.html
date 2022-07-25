@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronómetro</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <section class="cronometro">
+
+        <div>
+             <tr>
+                <td>
+                    <button id = "decenas_horas" class="boton01">0</button>
+                    <button id = "unidades_horas" class="boton01">0</button>
+                    <img src = "imagenes/dos_puntos.png"></img>
+                    <button id = "decenas_minutos" class="boton01">0</button>
+                    <button id = "unidades_minutos" class="boton01">0</button>
+                    <img src = "imagenes/dos_puntos.png"></img>
+                    <button id ="decenas_seg" class="boton01">0</button>
+                    <button id ="unidades_seg" class="boton01">0</button>
+                    <img src = "imagenes/dos_puntos.png"></img>
+                    <button id = "decenas_milisegundos"class="boton01">0</button>
+                    <button id = "milisegundos"class="boton01">0</button>
+                    
+                </td>
+            </tr>
+        </div>
+        
+        
+
+    </section>
+    <div>
+        <section class="opciones">
+            <tr>
+                <td>
+                    <button id = "pausar" name="pausar" class = "boton02" onclick="bloquear_pausa(this)"> Pausar </button>
+                    <button id = "reiniciar" name = "reiniciar"class = "boton02" > Reiniciar </button>
+                    <button id = "iniciar"name="iniciar" class = "boton02"> Iniciar</button>
+                </td>
+            </tr>
+        </section>
+    </div>
+    <script src = "scripts/app_01.js">
+
+    </script> 
+</body>
+</html>
